@@ -63,6 +63,10 @@ REVAI_SPEC_DIR = $(CURDIR)/specs/rev.ai
 REVAI_SPEC = $(REVAI_SPEC_DIR)/rev.ai.yaml
 REVAI_SPEC_REMOTE = https://raw.githubusercontent.com/APIs-guru/openapi-directory/main/APIs/rev.ai/v1/openapi.yaml
 
+REPAIRSHOPR_SPEC_DIR = $(CURDIR)/specs/repairshopr
+REPAIRSHOPR_SPEC = $(REPAIRSHOPR_SPEC_DIR)/repairshopr.yaml
+REPAIRSHOPR_SPEC_REMOTE = https://api-docs.repairshopr.com/swagger.json
+
 SENDGRID_SPEC_DIR = $(CURDIR)/specs/sendgrid
 SENDGRID_SPEC = $(SENDGRID_SPEC_DIR)/sendgrid.json
 SENDGRID_SPEC_REPO = sendgrid/sendgrid-oai
